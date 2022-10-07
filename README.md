@@ -1,6 +1,6 @@
-# Inicialização do Projeto
+# Setup de Ambiente e Projeto
 
-## Setup do ambiente local com Docker
+## Sessão 1 - Setup do ambiente local com Docker
 
 Execute o comando `docker run --publish 80:80 --publish 22:22 --hostname localhost wlsf82/gitlab-ce` e aguarde até o ambiente inicializar (isso pode levar alguns minutos), e então acesse a URL http://localhost/ para definir a senha o usuário `root`.
 
@@ -10,7 +10,7 @@ Execute o comando `docker run --publish 80:80 --publish 22:22 --hostname localho
 2. Clique no avatar do usuário no canto superior direito da tela, clique no link _Settings_, e então clique o menu lateral esquerdo na opção _Access Tokens_
 3. No campo nome, digite o valor `curso-cypress-intermediario`, na seção _Scopes_ marque a opção 'api', e então clique no botão 'Create personal access token'
 
-> Uma mensagem de que o token foi criado com sucesso deve ser exibida, além do token propriamente dito. Copie o token clicando no botão à direita do campo e guarde-o para utilizar na aula 2.
+> Uma mensagem de que o token foi criado com sucesso deve ser exibida, além do token propriamente dito. Copie o token clicando no botão à direita do campo e guarde-o para utilizar na sessão 2.
 
 ### Adicionando uma chave SSH
 
@@ -25,7 +25,7 @@ Execute o comando `docker run --publish 80:80 --publish 22:22 --hostname localho
 
 > Você também encontrará instruções sobre como gerar a chave SSH em sistema operacional Windows na própria aplicação em teste a partir da seguinte URL http://localhost/help/ssh/README#generating-a-new-ssh-key-pair (**instruções em Inglês**).
 
-## Setup do projeto de testes com Cypress
+## Sessão 2 - Setup do projeto de testes com Cypress
 
 ### Clonando o projeto
 
